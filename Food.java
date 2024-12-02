@@ -3,14 +3,12 @@ public class Food {
     private double price;
     private String spicyLevel;
 
-    // Constructor
     public Food(String name, double price, String spicyLevel) {
         this.name = name;
         this.price = price;
         this.spicyLevel = spicyLevel;
     }
 
-    // Getter methods
     public String getName() {
         return name;
     }
@@ -23,7 +21,6 @@ public class Food {
         return spicyLevel;
     }
 
-    // Method to display food details
     public void displayFood() {
         System.out.println(name + " - $" + price + " - Spicy Level: " + spicyLevel);
     }
